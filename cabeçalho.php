@@ -1,13 +1,15 @@
 <!-- Barra de navegação principal -->
-  <nav style="opacity : 0.8">
-    <div class="nav-wrapper blue darken-1" style="padding-left:120px; padding-right:40px;">
-      <a href="#" class="brand-logo">Evandro Ignácio</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="collapsible.html">Sobre</a></li>
-        <li><a href="badges.html">Habilidades</a></li> 
-        <li><a href="sass.html">Portifólio</a></li>
-        <li><a href="sass.html">Time</a></li>
-        <li><a href="collapsible.html">Contato</a></li>
+  <nav class="main-nav">
+    <div class="main-nav-img">
+        <a href="index.php">
+            <img src="img/evandro.jpg" alt="Evandro Ignácio" width="180px">
+        </a>
+      <ul class="main-nav-content">
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Portifólio</a></li> 
+        <li><a href="#">Skils</a></li>
+        <li><a href="#">Time</a></li>
+        <li><a href="#">Contato</a></li>
       </ul>
     </div>
   </nav>

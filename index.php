@@ -1,15 +1,6 @@
 <?php include_once("head.php")?>
-<?php include_once("cabeçalho.php")?>
     <header class="main-header">
-        <a href="index.php" class="main-header-lik">
-            <img src="img/evandro.jpg" alt="Evandro Ignácio" width="180px">
-        </a>
-        <h1 class="main-header-title">
-            Portifólio<br>
-            Desenvolvedor Web.<br>
-            Back - End.<br>
-            Por<strong> Evandro Ignácio</strong>
-        </h1>
+       <?php include_once("cabeçalho.php")?>
     </header>
     <main class="main-content">
         <section class="main-content-section">
@@ -140,8 +131,8 @@
                 <label for="nome">Nome</label>
                 <textarea name="mensagem" id="mensagem"></textarea>
                     
-                <input type="submit" value="Enviar">
-                <button class="button-default">Limpar</button>
+                <input class="button-default" type="submit" value="Enviar">
+                <button class="button-default-empty">Limpar</button>
             </form>
             <address>
                 <p>
