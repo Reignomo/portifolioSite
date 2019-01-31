@@ -48,6 +48,75 @@
             
         </section>
         
+        <section class="main-content-section">
+            <h3>Skils</h3>
+            <table class="table">
+                <thead>
+                    <th>Tecnologia</th>
+                    <th>Descrição</th>
+                    <th>Nível de habilidades</th>
+                </thead>
+                <tfoot>
+                  
+                </tfoot>
+                <tbody>
+                    <tr>
+                        <td>PHP</td>
+                        <td>a que sei mais</td>
+                        <td>4 estrelas</td>
+                    </tr>
+                    <tr>
+                        <td>C#</td>
+                        <td>a que sei mais</td>
+                        <td>4 estrelas</td>
+                    </tr>
+                    <tr>
+                        <td>Java</td>
+                        <td>a que sei mais</td>
+                        <td>4 estrelas</td>
+                    </tr>
+                    <tr>
+                        <td>SQL</td>
+                        <td>a que sei mais</td>
+                        <td>4 estrelas</td>
+                    </tr>
+                    <tr>
+                        <td>HTML</td>
+                        <td>a que sei mais</td>
+                        <td>4 estrelas</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>a que sei mais</td>
+                        <td>4 estrelas</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>a que sei mais</td>
+                        <td>4 estrelas</td>
+                    </tr>
+                    <tr>
+                        <td>Git</td>
+                        <td>a que sei mais</td>
+                        <td>4 estrelas</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section class="main-content-section">
+            <h3>Time</h3>
+            <div class="team-card">
+                <img src="img/evandro.jpg" alt="Evandro">
+                <p class="team-card-title">Evandro Ignácio</p>
+                <p class="team-card-text">Texto falando sobre..</p>
+            </div>
+            <div class="team-card">
+                <img src="img/works.jpg" alt="Zeus">
+                <p class="team-card-title">Evandro Ignácio</p>
+                <p class="team-card-text">Texto falando sobre..</p>
+            </div>
+        </section>
         <!-- todas a outras sections ficaram aqui -->
             
         <section class="main-content-section">
@@ -59,10 +128,20 @@
                 <label for="email">Email</label>
                 <input type="text" name="email" id="email">
                 
+                <label for="assunto">Assunto</label>
+                <select>
+                    <option value="0" disabled selected>Assunto</option>
+                    <option value="1">Orçamento</option>
+                    <option value="2">Sugestões</option>
+                    <option value="3">Vagas</option>
+                    <option value="4">Outros</option>
+                </select>
+                
                 <label for="nome">Nome</label>
                 <textarea name="mensagem" id="mensagem"></textarea>
                     
                 <input type="submit" value="Enviar">
+                <button class="button-default">Limpar</button>
             </form>
             <address>
                 <p>
@@ -79,6 +158,7 @@
                 </p>
             </address>
         </section>
+        
     </main>
     <footer class="main-footer">
     </footer>
