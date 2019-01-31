@@ -2,16 +2,16 @@
 <?php include_once("cabeçalho.php")?>
     <header class="main-header">
         <a href="index.php" class="main-header-lik">
-            <img src="img/evandro.jpg" alt="Evandro Ignácio">
+            <img src="img/evandro.jpg" alt="Evandro Ignácio" width="180px">
         </a>
-        <h1>
+        <h1 class="main-header-title">
             Portifólio<br>
             Desenvolvedor Web.<br>
             Back - End.<br>
             Por<strong> Evandro Ignácio</strong>
         </h1>
     </header>
-    <main class="main-contet">
+    <main class="main-content">
         <section class="main-content-section">
             <h2>Sobre</h2>
             <p>Se você precisa de ajuda em alguma das áreas mencionadas abaixo, conte-me sua necessidade. Terei prazer em ajudá-lo(a) a planejar e implementar uma estratégia digital eficaz para o seu negócio.</p>
@@ -21,25 +21,25 @@
         <section class="main-content-section">
             <h3>Trabalhos</h3>
             <article class="recent-works-card">
-                <a href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos"></a>
+                <a href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
                 <p class="recent-works-card-title">Titulo do trabalho</p>
                 <p class="recent-works-card-content"> descrição do trabalho</p>
             </article>
             
             <article class="recent-works-card">
-                <a href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos"></a>
+                <a href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
                 <p class="recent-works-card-title">Titulo do trabalho 2</p>
                 <p class="recent-works-card-content"> descrição do trabalho</p>
             </article>
             
             <article class="recent-works-card">
-                <a href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos"></a>
+                <a href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
                 <p class="recent-works-card-title">Titulo do trabalho 3</p>
                 <p class="recent-works-card-content"> descrição do trabalho</p>
             </article>
             
             <article class="recent-works-card">
-                <a href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos"></a>
+                <a href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
                 <p class="recent-works-card-title">Titulo do trabalho 4</p>
                 <p class="recent-works-card-content"> descrição do trabalho</p>
             </article>
@@ -107,12 +107,12 @@
         <section class="main-content-section">
             <h3>Time</h3>
             <div class="team-card">
-                <img src="img/evandro.jpg" alt="Evandro">
+                <img src="img/evandro.jpg" alt="Evandro" width="440px">
                 <p class="team-card-title">Evandro Ignácio</p>
                 <p class="team-card-text">Texto falando sobre..</p>
             </div>
             <div class="team-card">
-                <img src="img/works.jpg" alt="Zeus">
+                <img src="img/works.jpg" alt="Zeus" width="440px">
                 <p class="team-card-title">Evandro Ignácio</p>
                 <p class="team-card-text">Texto falando sobre..</p>
             </div>
