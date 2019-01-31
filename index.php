@@ -156,9 +156,5 @@
                 </div> 
             </div>
         </section>
-        
     </main>
-    <footer class="main-footer">
-    </footer>
-
     <?php include_once("rodape.php")?>
