@@ -112,42 +112,49 @@
             
         <section class="main-content-section">
             <h3>Entre em contato</h3>
-            <form action ="#" method="POST">
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome">
+            <p>Aqui você pode me enviar uma mesagem para orçamento ou até mesmo uma sugestão</p>
+            <div clss="row">
+                <div class="col-2-3">
+                    <form action ="#" method="POST">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome">
                 
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email">
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email">
                 
-                <label for="assunto">Assunto</label>
-                <select>
-                    <option value="0" disabled selected>Assunto</option>
-                    <option value="1">Orçamento</option>
-                    <option value="2">Sugestões</option>
-                    <option value="3">Vagas</option>
-                    <option value="4">Outros</option>
-                </select>
+                         <label for="assunto">Assunto</label>
+                         <select>
+                            <option value="0" disabled selected>Assunto</option>
+                            <option value="1">Orçamento</option>
+                            <option value="2">Sugestões</option>
+                            <option value="3">Vagas</option>
+                            <option value="4">Outros</option>
+                         </select>
                 
-                <label for="nome">Nome</label>
-                <textarea name="mensagem" id="mensagem"></textarea>
+                        <label for="nome">Nome</label>
+                        <textarea name="mensagem" id="mensagem"></textarea>
                     
-                <input class="button-default" type="submit" value="Enviar">
-                <a href="#" title="limpar" class="button-default-empty">Limpar</a>
-            </form>
-            <address>
-                <p>
-                    <span>Endereço</span>
-                    Encruzilhada - Santos, SP
-                </p>
-                <p>
-                    <span>Telefone</span>
-                    (13)997125069
-                </p>
-                <p>
-                    <span>E-mail</span>
-                    eignacio403@gmail.com
-                </p>
-            </address>
+                        <input class="button-default" type="submit" value="Enviar">
+                        <a href="#" title="limpar" class="button-empty">Limpar</a>
+                      </form>
+                </div>
+                <div class="col-1-3">
+                    <address>
+                        <p>
+                            <span>Endereço</span>
+                            Encruzilhada - Santos, SP
+                        </p>
+                        <p>
+                            <span>Telefone</span>
+                            (13)997125069
+                        </p>
+                        <p>
+                            <span>E-mail</span>
+                            eignacio403@gmail.com
+                        </p>
+                    </address>
+                </div> 
+            </div>
         </section>
         
     </main>
