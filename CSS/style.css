@@ -50,12 +50,18 @@ p{
 
 .button-default-empty{
     background-color: white;
-    border-color: #efefef;
+    border: 2px solid #efefef;
     color: inherit;
     padding: .75em 1.5em;
     border-radius: 5px;
     font-size: .9em;
 }
+
+.button-default-empty a:hover{
+    color:#49bf9d;
+    background-color: #49bf9d; 
+}
+
 
 .main-nav{
     position: fixed;
@@ -83,7 +89,7 @@ p{
 }
 
 .main-nav a:hover{
-    color: #09c3bc;
+    color: #48b2b2;
 }
 .main-nav ul{
     list-style-type: none;

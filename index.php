@@ -132,7 +132,7 @@
                 <textarea name="mensagem" id="mensagem"></textarea>
                     
                 <input class="button-default" type="submit" value="Enviar">
-                <button class="button-default-empty">Limpar</button>
+                <a href="#" title="limpar" class="button-default-empty">Limpar</a>
             </form>
             <address>
                 <p>
