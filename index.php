@@ -4,14 +4,16 @@
     </header>
     <main class="main-content">
         <section class="main-content-section">
-            <h2>Sobre</h2>
+            <h2>Quem sou eu ?</h2>
             <p>Se você precisa de ajuda em alguma das áreas mencionadas abaixo, conte-me sua necessidade. Terei prazer em ajudá-lo(a) a planejar e implementar uma estratégia digital eficaz para o seu negócio.</p>
             <p>Saiba que ter um site hoje não é mais um diferencial de uma marca, mas, sim, uma obrigação. Digamos que o site é um cartão de visitas, que fortalece ou começa a estabelecer a presença no mundo digital de uma empresa.</p>
+            <p>Ícones podem ter diversos propósitos como representar uma determinada ação, superar barreiras de linguagem, sinalização e/ou transmitir uma mensagem. Você não precisa conhecer a língua local em uma estação de trem de outro país para saber onde é a saída. A figura de um homem passando por uma porta acompanhada de uma seta é suficiente para comunicar esta informação. Da mesma forma, portas de banheiro são demarcadas com silhuetas masculinas ou femininas para você não errar na hora do aperto. Estas representações imagéticas acabam rapidamente se tornando convenções sociais. Não é necessário pensar muito para saber qual botão toca ou pausa um aparelho de som ou vídeo.</p>
+            <p>Se você ainda não sabe, Favicons são aqueles pequenos ícones que ficam ao lado da barra de endereços de um navegador e servem, entre outras funções, para identificar rapidamente um site. Os Favicons são um velhos conhecidos dos designers e desenvolvedores. Já são 14 anos de história. E neste meio tempo muita coisa evoluiu. Surgiram smartphones, tablets, televisores, sistemas operacionais modernos, telas de alta resolução e o favicon foi mudando de tamanho, posição e formato, conquistando um espaço muito além da barra de ferramentas do navegador. Neste artigo vamos conhecer mais profundamente esta parte tão importante, mas muitas vezes tão negligenciada, do webdesign.</p>
             <a href="#" title="veja mais" class="button-default"> Ver mais</a>
         </section>
         <hr>
         <section class="main-content-section">
-            <h3>Trabalhos</h3>
+            <h3>Portifólio</h3>
             <div class="row">
                 <div class="col-2">
                     <article class="recent-works-card">
@@ -168,15 +170,15 @@
                 <div class="col-1-3">
                     <address>
                         <p>
-                            <span>Endereço</span>
+                           <i class="fas fa-home"></i><span>  Endereço</span>
                             Encruzilhada - Santos, SP
                         </p>
                         <p>
-                            <span>Telefone</span>
+                            <i class="fas fa-phone"></i><span>  Telefone</span>
                             (13)997125069
                         </p>
                         <p>
-                            <span>E-mail</span>
+                            <i class="far fa-envelope"></i><span> E-mail</span>
                             eignacio403@gmail.com
                         </p>
                     </address>
