@@ -115,14 +115,14 @@
             <div class="row">
                 <div class="col-2">
                     <div class="team-card">
-                        <img class="img-perfil" src="img/zeus.jpg" alt="Evandro" width="440px">
+                        <img class="img-perfil" src="img/evandro2.jpg" alt="Evandro" width="400px">
                         <p class="team-card-title">Evandro Ignácio</p>
                         <p class="team-card-text">Evandro é desenvolvedor back-end responsável por atuar com tecnologias como PHP, C#, Java e banco de dados.</p>
                     </div>
                 </div>
                 <div class="col-2">
                     <div class="team-card">
-                        <img class="img-perfil" src="img/zeus.jpg" alt="Zeus" width="440px">
+                        <img class="img-perfil" src="img/zeus.jpg" alt="Zeus" width="400px">
                         <p class="team-card-title">Zeus</p>
                         <p class="team-card-text">Texto falando sobre..</p>
                     </div>

@@ -10,6 +10,7 @@
         <li><a href="#">Skils</a></li>
         <li><a href="#">Time</a></li>
         <li><a href="#">Contato</a></li>
+        
       </ul>
     </div>
   </nav>
