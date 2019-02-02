@@ -9,6 +9,7 @@
             <p>Saiba que ter um site hoje não é mais um diferencial de uma marca, mas, sim, uma obrigação. Digamos que o site é um cartão de visitas, que fortalece ou começa a estabelecer a presença no mundo digital de uma empresa.</p>
             <a href="#" title="veja mais" class="button-default"> Ver mais</a>
         </section>
+        <hr>
         <section class="main-content-section">
             <h3>Trabalhos</h3>
             <div class="row">
@@ -50,7 +51,7 @@
             <a href="#" title="veja mais" class="button-default">Veja o portifolio completo</a>
             
         </section>
-        
+        <hr>
         <section class="main-content-section">
             <h3>Skils</h3>
             <table class="table">
@@ -106,7 +107,7 @@
                 </tbody>
             </table>
         </section>
-        
+        <hr>
         <section class="main-content-section">
             <h3>Time</h3>
             <div class="row">
@@ -114,20 +115,20 @@
                     <div class="team-card">
                         <img class="img-perfil" src="img/zeus.jpg" alt="Evandro" width="440px">
                         <p class="team-card-title">Evandro Ignácio</p>
-                        <p class="team-card-text">Texto falando sobre..</p>
+                        <p class="team-card-text">Evandro é desenvolvedor back-end responsável por atuar com tecnologias como PHP, C#, Java e banco de dados.</p>
                     </div>
                 </div>
                 <div class="col-2">
                     <div class="team-card">
                         <img class="img-perfil" src="img/zeus.jpg" alt="Zeus" width="440px">
-                        <p class="team-card-title">Evandro Ignácio</p>
+                        <p class="team-card-title">Zeus</p>
                         <p class="team-card-text">Texto falando sobre..</p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- todas a outras sections ficaram aqui -->
-            
+        <hr>
         <section class="main-content-section">
             <h3>Entre em contato</h3>
             <p>Aqui você pode me enviar uma mesagem para orçamento ou até mesmo uma sugestão</p>
