@@ -11,29 +11,41 @@
         </section>
         <section class="main-content-section">
             <h3>Trabalhos</h3>
-            <article class="recent-works-card">
-                <a href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
-                <p class="recent-works-card-title">Titulo do trabalho</p>
-                <p class="recent-works-card-content"> descrição do trabalho</p>
-            </article>
+            <div class="row">
+                <div class="col-2">
+                    <article class="recent-works-card">
+                        <a class="img-link" href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
+                        <p class="recent-works-card-title">Titulo do trabalho</p>
+                        <p class="recent-works-card-content"> descrição do trabalho</p>
+                     </article>
+                    </div>
+
+                <div class="col-2">
+                    <article class="recent-works-card">
+                        <a class="img-link" href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
+                        <p class="recent-works-card-title">Titulo do trabalho 2</p>
+                        <p class="recent-works-card-content"> descrição do trabalho</p>
+                    </article>
+                </div>
+            </div>
             
-            <article class="recent-works-card">
-                <a href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
-                <p class="recent-works-card-title">Titulo do trabalho 2</p>
-                <p class="recent-works-card-content"> descrição do trabalho</p>
-            </article>
+            <div class="row">
+                <div class="col-2">
+                    <article class="recent-works-card">
+                        <a class="img-link" href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
+                        <p class="recent-works-card-title">Titulo do trabalho 3</p>
+                        <p class="recent-works-card-content"> descrição do trabalho</p>
+                      </article>
+                    </div>
             
-            <article class="recent-works-card">
-                <a href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
-                <p class="recent-works-card-title">Titulo do trabalho 3</p>
-                <p class="recent-works-card-content"> descrição do trabalho</p>
-            </article>
-            
-            <article class="recent-works-card">
-                <a href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
-                <p class="recent-works-card-title">Titulo do trabalho 4</p>
-                <p class="recent-works-card-content"> descrição do trabalho</p>
-            </article>
+                <div class="col-2">
+                    <article class="recent-works-card">
+                        <a class="img-link" href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
+                        <p class="recent-works-card-title">Titulo do trabalho 4</p>
+                        <p class="recent-works-card-content"> descrição do trabalho</p>
+                    </article>
+                </div>
+            </div>
             
             <a href="#" title="veja mais" class="button-default">Veja o portifolio completo</a>
             
@@ -97,15 +109,21 @@
         
         <section class="main-content-section">
             <h3>Time</h3>
-            <div class="team-card">
-                <img src="img/evandro.jpg" alt="Evandro" width="440px">
-                <p class="team-card-title">Evandro Ignácio</p>
-                <p class="team-card-text">Texto falando sobre..</p>
-            </div>
-            <div class="team-card">
-                <img src="img/works.jpg" alt="Zeus" width="440px">
-                <p class="team-card-title">Evandro Ignácio</p>
-                <p class="team-card-text">Texto falando sobre..</p>
+            <div class="row">
+                <div class="col-2">
+                    <div class="team-card">
+                        <img class="img-perfil" src="img/zeus.jpg" alt="Evandro" width="440px">
+                        <p class="team-card-title">Evandro Ignácio</p>
+                        <p class="team-card-text">Texto falando sobre..</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="team-card">
+                        <img class="img-perfil" src="img/zeus.jpg" alt="Zeus" width="440px">
+                        <p class="team-card-title">Evandro Ignácio</p>
+                        <p class="team-card-text">Texto falando sobre..</p>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- todas a outras sections ficaram aqui -->
@@ -116,24 +134,32 @@
             <div clss="row">
                 <div class="col-2-3">
                     <form action ="#" method="POST">
-                        <label for="nome">Nome</label>
-                        <input type="text" name="nome" id="nome">
-                
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email">
-                
-                         <label for="assunto">Assunto</label>
-                         <select>
-                            <option value="0" disabled selected>Assunto</option>
-                            <option value="1">Orçamento</option>
-                            <option value="2">Sugestões</option>
-                            <option value="3">Vagas</option>
-                            <option value="4">Outros</option>
-                         </select>
-                
-                        <label for="nome">Nome</label>
-                        <textarea name="mensagem" id="mensagem"></textarea>
-                    
+                        <div class="row">
+                            <div class="col-2">
+                                <label for="nome">Nome</label>
+                                <input placeholder="" type="text" name="nome" id="nome">
+                            </div>      
+                            <div class="col-2">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email">
+                            </div>
+                        </div>
+                        <div class="row">
+                             <label for="assunto">Assunto</label>
+                             <select>
+                                <option value="0" disabled selected>Assunto</option>
+                                <option value="1">Orçamento</option>
+                                <option value="2">Sugestões</option>
+                                <option value="3">Vagas</option>
+                                <option value="4">Outros</option>
+                             </select>
+                        </div>
+                        <div class="row">
+                            <label for="mensagem">Digite sua mensagem</label>
+                        </div>
+                        <div class="row">
+                            <textarea name="mensagem" id="mensagem"></textarea>
+                        </div>
                         <input class="button-default" type="submit" value="Enviar">
                         <a href="#" title="limpar" class="button-empty">Limpar</a>
                       </form>
