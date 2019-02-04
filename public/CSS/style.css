@@ -225,6 +225,19 @@ footer
 footer p{
     display: inline-block;
 }
+
+.recent-works-card .ul-icons .fa-github{
+  font-size: 80px;
+  top:140px;
+  left:40%; 
+  position: absolute;
+  color: transparent;
+}
+.recent-works-card .ul-icons .fa-github:hover{
+    transition: .8s;
+    color: rgba(30, 197, 140, 0.7);
+}
+
 .recent-works-card{
     border: 2px solid #f5f5f5;
     margin-bottom:60px;
@@ -233,7 +246,9 @@ footer p{
 
 }
 .recent-works-card:hover{
+    transition: .5s;
     opacity: 0.7;
+    color:inherit;
 }
 .recent-works-card img{
      width: 100%;

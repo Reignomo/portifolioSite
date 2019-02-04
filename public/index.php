@@ -18,6 +18,9 @@
                 <div class="col-2">
                     <article class="recent-works-card">
                         <a class="img-link" href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
+                        <div class="ul-icons">
+                            <i class="fab fa-github"></i>
+                        </div>
                         <p class="recent-works-card-title">Titulo do trabalho</p>
                         <p class="recent-works-card-content"> descrição do trabalho</p>
                      </article>
@@ -26,6 +29,9 @@
                 <div class="col-2">
                     <article class="recent-works-card">
                         <a class="img-link" href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
+                         <div class="ul-icons">
+                            <i class="fab fa-github"></i>
+                        </div>
                         <p class="recent-works-card-title">Titulo do trabalho 2</p>
                         <p class="recent-works-card-content"> descrição do trabalho</p>
                     </article>
@@ -36,6 +42,9 @@
                 <div class="col-2">
                     <article class="recent-works-card">
                         <a class="img-link" href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
+                         <div class="ul-icons">
+                            <i class="fab fa-github"></i>
+                        </div>
                         <p class="recent-works-card-title">Titulo do trabalho 3</p>
                         <p class="recent-works-card-content"> descrição do trabalho</p>
                       </article>
@@ -44,6 +53,9 @@
                 <div class="col-2">
                     <article class="recent-works-card">
                         <a class="img-link" href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
+                         <div class="ul-icons">
+                            <i class="fab fa-github"></i>
+                        </div>
                         <p class="recent-works-card-title">Titulo do trabalho 4</p>
                         <p class="recent-works-card-content"> descrição do trabalho</p>
                     </article>
