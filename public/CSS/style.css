@@ -243,6 +243,7 @@ footer p{
     margin-bottom:60px;
     box-shadow: 2px 3px #888888;
     position: relative;
+    border-radius: 10px;
 
 }
 .recent-works-card:hover{
@@ -253,7 +254,8 @@ footer p{
 .recent-works-card img{
      width: 100%;
      overflow:auto;
-     
+     border-top-left-radius: 10px;
+     border-top-right-radius: 10px;
 }
 .recent-works-card p{
     padding: 2% 5%;
