@@ -12,3 +12,16 @@
         </footer>
     </body>
 </html>
+<script>
+(function() {
+  var node = document.getElementById('message'),
+    message = "This is my message... ! Thx =)",
+    current = message.split("").reverse(),
+    interval = setInterval(function() {
+      if (current.length)
+        node.innerHTML += current.pop();
+      else
+        clearInterval(interval);
+    }, 300);
+}());
+</script>

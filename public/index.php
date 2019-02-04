@@ -13,57 +13,57 @@
         </section>
         <hr>
         <section class="main-content-section">
-            <h3>Portifólio</h3>
-            <div class="row">
-                <div class="col-2">
-                    <article class="recent-works-card">
-                        <a class="img-link" href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
-                        <div class="ul-icons">
-                            <i class="fab fa-github"></i>
-                        </div>
-                        <p class="recent-works-card-title">Titulo do trabalho</p>
-                        <p class="recent-works-card-content"> descrição do trabalho</p>
-                     </article>
-                    </div>
+          <h3>Portifólio</h3>
+          <div class="row">
+              <div class="col-2">
+                  <article class="recent-works-card">
+                      <a class="img-link" href="#"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
+                      <div class="ul-icons">
+                          <i class="fab fa-github"></i>
+                      </div>
+                      <p class="recent-works-card-title">Titulo do trabalho</p>
+                      <p class="recent-works-card-content"> descrição do trabalho</p>
+                    </article>
+                  </div>
 
-                <div class="col-2">
-                    <article class="recent-works-card">
-                        <a class="img-link" href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
-                         <div class="ul-icons">
-                            <i class="fab fa-github"></i>
-                        </div>
-                        <p class="recent-works-card-title">Titulo do trabalho 2</p>
-                        <p class="recent-works-card-content"> descrição do trabalho</p>
+              <div class="col-2">
+                  <article class="recent-works-card">
+                      <a class="img-link" href="#"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
+                        <div class="ul-icons">
+                          <i class="fab fa-github"></i>
+                      </div>
+                      <p class="recent-works-card-title">Titulo do trabalho 2</p>
+                      <p class="recent-works-card-content"> descrição do trabalho</p>
+                  </article>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-2">
+                  <article class="recent-works-card">
+                      <a class="img-link" href="#"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
+                        <div class="ul-icons">
+                          <i class="fab fa-github"></i>
+                      </div>
+                      <p class="recent-works-card-title">Titulo do trabalho 3</p>
+                      <p class="recent-works-card-content"> descrição do trabalho</p>
                     </article>
-                </div>
-            </div>
-            
-            <div class="row">
-                <div class="col-2">
-                    <article class="recent-works-card">
-                        <a class="img-link" href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
-                         <div class="ul-icons">
-                            <i class="fab fa-github"></i>
-                        </div>
-                        <p class="recent-works-card-title">Titulo do trabalho 3</p>
-                        <p class="recent-works-card-content"> descrição do trabalho</p>
-                      </article>
-                    </div>
-            
-                <div class="col-2">
-                    <article class="recent-works-card">
-                        <a class="img-link" href="img/works.jpg"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
-                         <div class="ul-icons">
-                            <i class="fab fa-github"></i>
-                        </div>
-                        <p class="recent-works-card-title">Titulo do trabalho 4</p>
-                        <p class="recent-works-card-content"> descrição do trabalho</p>
-                    </article>
-                </div>
-            </div>
-            
-            <a href="#" title="veja mais" class="button-default">Veja o portifolio completo</a>
-            
+                  </div>
+
+              <div class="col-2">
+                  <article class="recent-works-card">
+                      <a class="img-link" href="#"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
+                        <div class="ul-icons">
+                          <i class="fab fa-github"></i>
+                      </div>
+                      <p class="recent-works-card-title">Titulo do trabalho 4</p>
+                      <p class="recent-works-card-content"> descrição do trabalho</p>
+                  </article>
+              </div>
+          </div>
+
+          <a href="#a mais" class="button-default">Veja o portifolio completo</a>
+
         </section>
         <hr>
         <section class="main-content-section">
@@ -81,42 +81,74 @@
                     <tr>
                         <td>PHP</td>
                         <td>a que sei mais</td>
-                        <td>4 estrelas</td>
+                        <td>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
                     </tr>
                     <tr>
                         <td>C#</td>
-                        <td>a que sei mais</td>
-                        <td>4 estrelas</td>
+                        <td> o que sei </td>
+                        <td>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
                     </tr>
                     <tr>
                         <td>Java</td>
                         <td>a que sei mais</td>
-                        <td>4 estrelas</td>
+                        <td>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
                     </tr>
                     <tr>
                         <td>SQL</td>
                         <td>a que sei mais</td>
-                        <td>4 estrelas</td>
+                        <td>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
                     </tr>
                     <tr>
                         <td>HTML</td>
                         <td>a que sei mais</td>
-                        <td>4 estrelas</td>
+                        <td>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
                     </tr>
                     <tr>
                         <td>CSS</td>
                         <td>a que sei mais</td>
-                        <td>4 estrelas</td>
+                        <td>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
                     </tr>
                     <tr>
                         <td>JavaScript</td>
                         <td>a que sei mais</td>
-                        <td>4 estrelas</td>
+                        <td>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
                     </tr>
                     <tr>
                         <td>Git</td>
                         <td>a que sei mais</td>
-                        <td>4 estrelas</td>
+                        <td>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </td>
                     </tr>
                 </tbody>
             </table>
