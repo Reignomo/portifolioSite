@@ -206,6 +206,10 @@ select:focus {
   color: #49bf9d;
 }
 
+.main-nav a: {
+  transition: 0.5;
+}
+
 .main-nav ul {
   list-style-type: none;
 }
@@ -265,20 +269,8 @@ footer p {
   display: inline-block;
 }
 
-.recent-works-card .ul-icons .fa-github {
-  font-size: 80px;
-  top: 35%;
-  left: 40%;
-  position: absolute;
-  color: transparent;
-}
-
-.recent-works-card .ul-icons .fa-github:hover {
-  transition: .8s;
-  color: rgba(30, 197, 140, 0.7);
-}
-
 .recent-works-card {
+  width: 100%;
   border: 2px solid #f5f5f5;
   margin-bottom: 60px;
   box-shadow: 2px 3px #888888;
@@ -294,7 +286,7 @@ footer p {
 }
 
 .recent-works-card img {
-  width: 100%;
+  width:100%;
   overflow: auto;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
@@ -313,6 +305,9 @@ footer p {
   background-color: rgba(30, 197, 140, 0.7);
   color: white;
 
+}
+.recent-works-card-content{
+    font-size:14px; 
 }
 
 .team-card {

@@ -3,7 +3,7 @@
        <?php include_once("cabeçalho.php")?>
     </header>
     <main class="main-content">
-        <section class="main-content-section">
+        <section class="main-content-section" id="sobre">
             <h2>Quem sou eu ?</h2>
             <p>Se você precisa de ajuda em alguma das áreas mencionadas abaixo, conte-me sua necessidade. Terei prazer em ajudá-lo(a) a planejar e implementar uma estratégia digital eficaz para o seu negócio.</p>
             <p>Saiba que ter um site hoje não é mais um diferencial de uma marca, mas, sim, uma obrigação. Digamos que o site é um cartão de visitas, que fortalece ou começa a estabelecer a presença no mundo digital de uma empresa.</p>
@@ -12,28 +12,26 @@
             <a href="#" title="veja mais" class="button-default"> Ver mais</a>
         </section>
         <hr>
-        <section class="main-content-section">
+        <section class="main-content-section" id="portifolio">
           <h3>Portifólio</h3>
           <div class="row">
               <div class="col-2">
                   <article class="recent-works-card">
-                      <a class="img-link" href="#"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
-                      <div class="ul-icons">
-                          <i class="fab fa-github"></i>
-                      </div>
-                      <p class="recent-works-card-title">Titulo do trabalho</p>
-                      <p class="recent-works-card-content"> descrição do trabalho</p>
+                      <a class="img-link" href="#"><img src="img/csharp.jpg" alt="Trabalhos"></a>
+                      <p class="recent-works-card-title">Sistema para controle de frequência 
+                        <i class="fab fa-github"></i>
+                      </p>
+                      <p class="recent-works-card-content">Esse sistema foi criado para controlar a frequência dos alunos da escola objetivo cubatão.</p>
                     </article>
                   </div>
 
               <div class="col-2">
                   <article class="recent-works-card">
-                      <a class="img-link" href="#"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
-                        <div class="ul-icons">
+                      <a class="img-link" href="#"><img src="img/php.png" alt="Trabalhos" ></a>
+                      <p class="recent-works-card-title">Sistema de gestão de serviços 
                           <i class="fab fa-github"></i>
-                      </div>
-                      <p class="recent-works-card-title">Titulo do trabalho 2</p>
-                      <p class="recent-works-card-content"> descrição do trabalho</p>
+                      </p>
+                      <p class="recent-works-card-content">Projeto de TCC desenvolvido durante o curso de análise e desenvolvimento de sistemas.</p>
                   </article>
               </div>
           </div>
@@ -41,23 +39,21 @@
           <div class="row">
               <div class="col-2">
                   <article class="recent-works-card">
-                      <a class="img-link" href="#"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
-                        <div class="ul-icons">
+                      <a class="img-link" href="#"><img src="img/htmlcss.jpg" alt="Trabalhos" width="440px"></a>
+                      <p class="recent-works-card-title">Site pessoal 
                           <i class="fab fa-github"></i>
-                      </div>
-                      <p class="recent-works-card-title">Titulo do trabalho 3</p>
-                      <p class="recent-works-card-content"> descrição do trabalho</p>
+                      </p>
+                      <p class="recent-works-card-content">Aqui você pode analisar todo a codificação feita nessa pagina acessando o GitHub.</p>
                     </article>
                   </div>
 
               <div class="col-2">
                   <article class="recent-works-card">
-                      <a class="img-link" href="#"><img src="img/works.jpg" alt="Trabalhos" width="440px"></a>
-                        <div class="ul-icons">
+                      <a class="img-link" href="#"><img src="img/Servlet-JSP-Tutorial.png" alt="Trabalhos" width="440px"></a>
+                      <p class="recent-works-card-title">Projeto em Jsp 
                           <i class="fab fa-github"></i>
-                      </div>
-                      <p class="recent-works-card-title">Titulo do trabalho 4</p>
-                      <p class="recent-works-card-content"> descrição do trabalho</p>
+                      </p>
+                      <p class="recent-works-card-content">Projeto desenvolvido durante uma aula de JSP no curso de ADS no Instituto Federal de Cubatão.</p>
                   </article>
               </div>
           </div>
@@ -66,7 +62,7 @@
 
         </section>
         <hr>
-        <section class="main-content-section">
+        <section class="main-content-section" id="skills">
             <h3>Skils</h3>
             <table class="table">
                 <thead>
@@ -86,6 +82,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
                         </td>
                     </tr>
                     <tr>
@@ -96,6 +93,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
                         </td>
                     </tr>
                     <tr>
@@ -105,6 +103,8 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
                         </td>
                     </tr>
                     <tr>
@@ -114,6 +114,8 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
                         </td>
                     </tr>
                     <tr>
@@ -123,6 +125,8 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
                         </td>
                     </tr>
                     <tr>
@@ -131,6 +135,9 @@
                         <td>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
                         </td>
                     </tr>
                     <tr>
@@ -139,6 +146,9 @@
                         <td>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
                         </td>
                     </tr>
                     <tr>
@@ -148,13 +158,15 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
                         </td>
                     </tr>
                 </tbody>
             </table>
         </section>
         <hr>
-        <section class="main-content-section">
+        <section class="main-content-section" id="time">
             <h3>Time</h3>
             <div class="row">
                 <div class="col-2">
@@ -175,7 +187,7 @@
         </section>
         <!-- todas a outras sections ficaram aqui -->
         <hr>
-        <section class="main-content-section">
+        <section class="main-content-section" id="contato">
             <h3>Entre em contato</h3>
             <p>Aqui você pode me enviar uma mesagem para orçamento ou até mesmo uma sugestão</p>
             <div clss="row">
