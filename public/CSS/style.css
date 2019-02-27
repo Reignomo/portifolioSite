@@ -191,6 +191,11 @@ select:focus {
   background-size: auto, cover;
   text-align: right;
 }
+@media screen and (min-width: 0px) and (max-width: 600px){
+  .main-nav{
+      display: none;
+  }        
+}
 
 .main-nav a {
   text-decoration: none;
@@ -257,16 +262,19 @@ select:focus {
 
 footer {
   position: fixed;
-  bottom: 0;
+  top: 0;
   left: 0;
-  width: 28%;
-  height: 18%;
-  text-align: right;
+  height: 30%;
+  width: 35%;
   padding: 124px 54px 72px;
+  box-sizing: border-box;
+  text-align: right; 
 }
-
 footer p {
   display: inline-block;
+}
+.footer-contet{
+  margin-top:500px;
 }
 
 .recent-works-card {
@@ -276,7 +284,6 @@ footer p {
   box-shadow: 2px 3px #888888;
   position: relative;
   border-radius: 10px;
-
 }
 
 .recent-works-card:hover {
